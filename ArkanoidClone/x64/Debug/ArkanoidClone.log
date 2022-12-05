@@ -1,0 +1,60 @@
+﻿  ArkanoidSource.cpp
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(237,62): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(237,49): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(249,62): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(249,49): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(255,69): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(282,62): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(282,49): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(345,58): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(345,45): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(524,66): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(524,48): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(778,109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(778,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Dev\Git\ArkanoidClone\ArkanoidClone\src\ArkanoidSource.cpp(909,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ArkanoidClone.vcxproj -> C:\Dev\Git\ArkanoidClone\x64\Debug\ArkanoidClone.exe
