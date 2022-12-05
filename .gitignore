@@ -26,6 +26,13 @@
 *.a
 *.lib
 
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
 # Executables
 *.exe
 *.out
