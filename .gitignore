@@ -1,30 +1,10 @@
-# Prerequisites
-*.d
+# Directories
+**bin/
+**bin-int/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Files
+*.user
+*imgui.ini
 
 # Visual Studio
 .vs/
@@ -32,8 +12,3 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-
-# Executables
-*.exe
-*.out
-*.app
