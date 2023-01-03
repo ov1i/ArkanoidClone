@@ -15,9 +15,6 @@ project "ArkanoidClone"
 		kind "SharedLib"
 		language "C++"
 
-		targetdir ("bin/" .. outputdir .. "/%{prj.name}")	
-		targetdir ("bin-in/" .. outputdir .. "/%{prj.name}")
-
 		files
 		{
 			"%{prj.name}/src/**.h",
