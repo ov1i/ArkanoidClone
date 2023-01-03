@@ -25,7 +25,7 @@ project "ArkanoidClone"
 		}
 		includedirs
 		{
-			"%{prj.name}/Dependencies/Framework/Include"
+			"Dependencies/Framework/Include"
 		}
 		filter "system:windows"
 			cppdialect "C++17"
