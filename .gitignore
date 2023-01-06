@@ -1,6 +1,5 @@
 # Directories
-**bin/
-**bin-int/
+**bin-in/
 
 # Files
 *.user
@@ -12,3 +11,8 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+
+# Executables
+*.exe
+*.out
+*.app
