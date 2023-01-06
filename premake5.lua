@@ -1,42 +1,46 @@
 workspace "ArkanoidClone"
-	architecture "x64"
+	architecture "x86_64"
 	
 	configurations
 	{
 		"Debug",
-		"Release",
-		"Dist"
+		"Release"
 	}
 
-outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
+outputdir = "%{cfg.architecture}/%{cfg.buildcfg}"
 
 project "ArkanoidClone"
 		location "ArkanoidClone"
-		kind "SharedLib"
+		kind "ConsoleApp"
 		language "C++"
+
+		targetdir ("bin/" ..outputdir)	
+		objdir ("bin-in/" ..outputdir)
 
 		files
 		{
 			"%{prj.name}/src/**.h",
+			"%{prj.name}/src/**.hpp",
+			"%{prj.name}/src/**.c",
 			"%{prj.name}/src/**.cpp"
 		}
 		includedirs
 		{
 			"Dependencies/Framework/Include"
 		}
+
+		links {"FrameworkRelease_x64"}
+		libdirs "Dependencies/Framework"
+
 		filter "system:windows"
-			cppdialect "C++17"
+			cppdialect "C++14"
 			staticruntime "On"
 			systemversion "latest"
 			
 			defines
 			{
-				"_WINDOWS",
-				"NDEBUG", 
-				"_CONSOLE"
+				"_WINDOWS"
 			}
-
-
 
 		filter "configurations:Debug"
 			defines "ArkanoidClone_DEBUG"
@@ -46,6 +50,7 @@ project "ArkanoidClone"
 			defines "ArkanoidClone_RELEASE"
 			optimize "On"
 
-		filter "configurations:Dist"
-			defines "ArkanoidClone_DIST"
-			optimize "On"
+		filter {"system:windows" ,"configurations:Release" }
+			buildoptions "/MT"
+
+			
