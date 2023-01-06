@@ -42,15 +42,18 @@ project "ArkanoidClone"
 				"_WINDOWS"
 			}
 
-		filter "configurations:Debug"
-			defines "ArkanoidClone_DEBUG"
-			symbols "On"
+			filter "configurations:Debug"
+				defines "ArkanoidClone_DEBUG"
+				runtime "Debug"
+				symbols "On"
+				buildoptions "/MTd"
 
-		filter "configurations:Release"
-			defines "ArkanoidClone_RELEASE"
-			optimize "On"
+			filter "configurations:Release"
+				defines "ArkanoidClone_RELEASE"
+				runtime "Release"
+				optimize "On"
+				buildoptions "/MT"
 
-		filter {"system:windows" ,"configurations:Release" }
-			buildoptions "/MT"
+		
 
 			
